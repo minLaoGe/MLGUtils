@@ -19,23 +19,19 @@ public class User implements Serializable,Person {
         System.out.println(name+age);
     }
 
+
     @Override
     public String toString() {
-        System.out.println("User{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}');
+
         return "User{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
     }
 
+
     @Override
     public String tostring() {
-        return "User{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}';
+        return null;
     }
 }
